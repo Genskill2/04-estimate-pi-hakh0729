@@ -1,4 +1,4 @@
-[1:49 PM, 6/3/2021] Aswin Mech NIT: #include <assert.h>
+ #include <assert.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
