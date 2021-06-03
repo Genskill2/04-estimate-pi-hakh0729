@@ -23,4 +23,12 @@ int main(void) {
     }
   }
 }
-
+float wallis_pi(int n)
+{
+  double pc=1.0;
+  for(int i=1;i<= n;i++)
+  {
+    pc=pc*((2*i/(2*i-1.0))*(2*i/(2*i+1.0)));
+  }
+  return pc;
+}
